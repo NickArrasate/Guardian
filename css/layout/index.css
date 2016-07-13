@@ -5,6 +5,8 @@ Error: Undefined variable: "$color-blue-light".
 
 1: @import 'header';
 2: @import 'tiles';
+3: @import 'content1';
+4: @import 'content2';
 
 Backtrace:
 scss/layout/_header.scss:2
@@ -73,4 +75,4 @@ scss/layout/index.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-blue-light\".\A         on line 2 of scss/layout/_header.scss\A         from line 1 of scss/layout/index.scss\A \A 1: @import 'header';\A 2: @import 'tiles';"; }
+  content: "Error: Undefined variable: \"$color-blue-light\".\A         on line 2 of scss/layout/_header.scss\A         from line 1 of scss/layout/index.scss\A \A 1: @import 'header';\A 2: @import 'tiles';\A 3: @import 'content1';\A 4: @import 'content2';"; }

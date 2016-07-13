@@ -1,6 +1,5 @@
 .wrapper {
   width: 1200px;
-  // max-width: 1200px;
   height: 800px;
   margin: 0 auto;
   background: white;
@@ -11,34 +10,4 @@
   height: 100%;
   background: lightgrey;
   float: left;
-}
-
-.mainBody {
-  width: 950px;
-  height: 100%;
-  background: #eee;
-  float: right;
-  @include outer-container(950px);
-
-  .row1, .row2 {
-    @include span-columns(12);
-    height: 400px;
-  }
-
-  .featured {
-    @include col-layout(9);
-  }
-
-  .medium {
-    @include col-layout(3);
-  }
-
-  .smallRow {
-    @include col-layout(3);
-  }
-
-  .small {
-    @include col-layout(3);
-    height: 133px;
-  }
 }

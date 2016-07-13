@@ -1,0 +1,76 @@
+.mainBody {
+  width: 950px;
+  height: 100%;
+  // background: #eee;
+  float: right;
+  @include outer-container(950px);
+  padding-right: 25px;
+
+  .row1, .row2 {
+    @include span-columns(12);
+    height: 400px;
+    padding: 15px 0px 0px 0px;
+  }
+
+  .featured {
+    @include col-layout(9);
+    .headlineLarge{
+      @include span-columns(4);
+      padding: 15px 0 0 8px;
+    }
+    .image{
+      @include span-columns(8);
+      height: 80%;
+      @include omega();
+      img {
+        max-height: 100%;
+        width: 100%;
+      }
+    }
+    .sub{
+      @include span-columns(4);
+      & p {
+        padding: 8px 5px 0 0;
+      }
+    }
+    .sub:first-child p{
+      padding-left: 8px;
+    }
+  }
+
+  .medium {
+    @include col-layout(3);
+    .image{
+      height: 40%;
+      img {
+        max-height: 100%;
+        width: 100%;
+      }
+    }
+    .headline {
+      margin-bottom: 70px;
+
+      & p {
+      font-size: 16pt;
+    }
+  }
+    .content {
+      padding-top: 10px;
+      padding-bottom: 50px;
+    }
+  }
+  .smallRow {
+    @include span-columns(3);
+    & :last-child {
+      margin-bottom: 0;
+    }
+  }
+  .small {
+    @include col-layout(12);
+    height: 118px;
+    span{
+      color: $color-blue-dark;
+    }
+
+  }
+}

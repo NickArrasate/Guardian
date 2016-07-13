@@ -81,11 +81,11 @@ header ul li {
 .mainBody {
   width: 950px;
   height: 100%;
-  background: #eee;
   float: right;
   max-width: 950px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-right: 25px; }
   .mainBody::after {
     clear: both;
     content: "";
@@ -95,7 +95,8 @@ header ul li {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    height: 400px; }
+    height: 400px;
+    padding: 15px 0px 0px 0px; }
     .mainBody .row1:last-child, .mainBody .row2:last-child {
       margin-right: 0; }
   .mainBody .featured {
@@ -103,42 +104,214 @@ header ul li {
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
-    background: #ddd;
+    background: #eee;
     height: 100%;
-    float: left; }
+    padding-top: 8px;
+    padding-left: 5px;
+    border-top: 1px solid #005689;
+    float: left;
+    margin-bottom: 15px; }
     .mainBody .featured:last-child {
       margin-right: 0; }
+    .mainBody .featured .headlineLarge {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      padding: 15px 0 0 8px; }
+      .mainBody .featured .headlineLarge:last-child {
+        margin-right: 0; }
+    .mainBody .featured .image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      height: 80%;
+      margin-right: 0; }
+      .mainBody .featured .image:last-child {
+        margin-right: 0; }
+      .mainBody .featured .image img {
+        max-height: 100%;
+        width: 100%; }
+    .mainBody .featured .sub {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      .mainBody .featured .sub:last-child {
+        margin-right: 0; }
+      .mainBody .featured .sub p {
+        padding: 8px 5px 0 0; }
+    .mainBody .featured .sub:first-child p {
+      padding-left: 8px; }
   .mainBody .medium {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    background: #ddd;
+    background: #eee;
     height: 100%;
-    float: left; }
+    padding-top: 8px;
+    padding-left: 5px;
+    border-top: 1px solid #005689;
+    float: left;
+    margin-bottom: 15px; }
     .mainBody .medium:last-child {
       margin-right: 0; }
+    .mainBody .medium .image {
+      height: 40%; }
+      .mainBody .medium .image img {
+        max-height: 100%;
+        width: 100%; }
+    .mainBody .medium .headline {
+      margin-bottom: 70px; }
+      .mainBody .medium .headline p {
+        font-size: 16pt; }
+    .mainBody .medium .content {
+      padding-top: 10px;
+      padding-bottom: 50px; }
   .mainBody .smallRow {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%;
-    background: #ddd;
-    height: 100%;
-    float: left; }
+    width: 23.23176%; }
     .mainBody .smallRow:last-child {
       margin-right: 0; }
+    .mainBody .smallRow :last-child {
+      margin-bottom: 0; }
   .mainBody .small {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%;
-    background: #ddd;
+    width: 100%;
+    background: #eee;
     height: 100%;
+    padding-top: 8px;
+    padding-left: 5px;
+    border-top: 1px solid #005689;
     float: left;
-    height: 133px; }
+    margin-bottom: 15px;
+    height: 118px; }
     .mainBody .small:last-child {
       margin-right: 0; }
+    .mainBody .small span {
+      color: #00456e; }
+
+.mainBody2 {
+  width: 950px;
+  height: 100%;
+  float: right;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 25px; }
+  .mainBody2::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .mainBody2 .row1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    height: 300px;
+    padding: 15px 0px 0px 0px; }
+    .mainBody2 .row1:last-child {
+      margin-right: 0; }
+  .mainBody2 .row2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    height: 500px;
+    padding: 15px 0px 0px 0px; }
+    .mainBody2 .row2:last-child {
+      margin-right: 0; }
+  .mainBody2 .featured {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    background: #eee;
+    height: 100%;
+    padding-top: 8px;
+    padding-left: 5px;
+    border-top: 1px solid #005689;
+    float: left;
+    margin-bottom: 15px;
+    padding-top: 4px; }
+    .mainBody2 .featured:last-child {
+      margin-right: 0; }
+    .mainBody2 .featured .image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      height: 100%;
+      margin-right: 0; }
+      .mainBody2 .featured .image:last-child {
+        margin-right: 0; }
+      .mainBody2 .featured .image img {
+        width: 100%;
+        height: 100%; }
+    .mainBody2 .featured .headline2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%;
+      height: 100%;
+      padding-top: 4px; }
+      .mainBody2 .featured .headline2:last-child {
+        margin-right: 0; }
+      .mainBody2 .featured .headline2 p {
+        word-wrap: break-word; }
+  .mainBody2 .medium {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: #eee;
+    height: 100%;
+    padding-top: 8px;
+    padding-left: 5px;
+    border-top: 1px solid #005689;
+    float: left;
+    margin-bottom: 15px; }
+    .mainBody2 .medium:last-child {
+      margin-right: 0; }
+  .mainBody2 .smallRow {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .mainBody2 .smallRow:last-child {
+      margin-right: 0; }
+  .mainBody2 .small {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: #eee;
+    height: 100%;
+    padding-top: 8px;
+    padding-left: 5px;
+    border-top: 1px solid #005689;
+    float: left;
+    margin-bottom: 15px;
+    height: 121.25px; }
+    .mainBody2 .small:last-child {
+      margin-right: 0; }
+    .mainBody2 .small .image {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      height: 100%; }
+      .mainBody2 .small .image:last-child {
+        margin-right: 0; }
+      .mainBody2 .small .image img {
+        height: 100%;
+        width: 100%; }
 
 *,
 *::before,

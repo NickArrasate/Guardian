@@ -1,0 +1,19 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'base/index';
+@import 'component/index';
+@import 'layout/index';
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.cf {
+  content: " ";
+  display: block;
+  clear: both;
+}

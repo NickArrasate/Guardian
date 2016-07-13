@@ -1,0 +1,6 @@
+@mixin col-layout($cols){
+  @include span-columns($cols of 12);
+  background: $color-grey-light;
+  height: 100%;
+  float: left;
+}

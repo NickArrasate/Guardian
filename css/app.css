@@ -1,3 +1,155 @@
+html {
+  box-sizing: border-box; }
 
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: #eee; }
+
+header {
+  background: #005689;
+  height: 160px; }
+
+header ul {
+  list-style: none; }
+
+header ul li {
+  display: inline; }
+
+.wrapper {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  background: white; }
+
+.sideBar {
+  width: 250px;
+  height: 100%;
+  background: lightgrey;
+  float: left; }
+
+.mainBody {
+  width: 950px;
+  height: 100%;
+  background: #eee;
+  float: right;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto; }
+  .mainBody::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .mainBody .row1, .mainBody .row2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    height: 400px; }
+    .mainBody .row1:last-child, .mainBody .row2:last-child {
+      margin-right: 0; }
+  .mainBody .featured {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    background: #ddd;
+    height: 100%;
+    float: left; }
+    .mainBody .featured:last-child {
+      margin-right: 0; }
+  .mainBody .medium {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: #ddd;
+    height: 100%;
+    float: left; }
+    .mainBody .medium:last-child {
+      margin-right: 0; }
+  .mainBody .smallRow {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: #ddd;
+    height: 100%;
+    float: left; }
+    .mainBody .smallRow:last-child {
+      margin-right: 0; }
+  .mainBody .small {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background: #ddd;
+    height: 100%;
+    float: left;
+    height: 133px; }
+    .mainBody .small:last-child {
+      margin-right: 0; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.cf {
+  content: " ";
+  display: block;
+  clear: both; }
 
 /*# sourceMappingURL=app.css.map */
